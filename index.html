@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MouseChan images</title>
+    <link rel="stylesheet" href="style.css" defer />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <h1>Mousechan</h1>
+    <div class="image-layering">
+      <img src="assets/tail1.png" alt="tail" id="tail" />
+      <img src="assets/mousechan-body.png" alt="mousechan" id="body" />
+      <img src="assets/feet1.png" alt="feet" id="feet" />
+      <img src="assets/whiskers1.png" alt="whisker" id="whisker" />
+      <img src="assets/eye1.png" alt="eye" id="eye" />
+    </div>
+    <h2>Options</h2>
+    <button onclick="update('tail','tail1')">Tail 1</button>
+    <button onclick="update('tail','tail2')">Tail 2</button>
+    <button onclick="update('tail','tail3')">Tail 3</button><br /><br />
+    <button onclick="update('whisker','whiskers1')">whiskers 1</button>
+    <button onclick="update('whisker','whiskers2')">whiskers 2</button>
+    <button onclick="update('whisker','whiskers3')">whiskers 3</button
+    ><br /><br />
+    <button onclick="update('eye','eye1')">eye 1</button>
+    <button onclick="update('eye','eye2')">eye 2</button>
+    <button onclick="update('eye','eye3')">eye 3</button><br /><br />
+    <button onclick="update('feet','feet1')">feet 1</button>
+    <button onclick="update('feet','feet2')">feet 2</button><br /><br />
+  </body>
+</html>

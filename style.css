@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap");
+
+* {
+  font-family: "Work Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: #e0e0e0;
+}
+
+.mousechan-images {
+  margin: 50px;
+}
+
+#body {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+#tail {
+    position: absolute;
+    top: 125px;
+    left: 350px;
+}
+
+#feet {
+    position: absolute;
+    top: 225px;
+    left: 160px;
+}
+
+#whisker {
+    position: absolute;
+    top: 190px;
+    left: 85px;
+}
+
+#eye {
+    position: absolute;
+    top: 170px;
+    left: 145px;
+}
