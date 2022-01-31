@@ -43,3 +43,9 @@ body {
     top: 170px;
     left: 145px;
 }
+
+#ear {
+  position: absolute;
+  top: 70px;
+  left: 130px;
+}
