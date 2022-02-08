@@ -55,3 +55,9 @@ body {
   top: 0px;
   left: 0px;
 }
+
+#hat {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
